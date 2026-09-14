@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.log
+results/reproduced/
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.ckpt
+scratch/
+tmp/

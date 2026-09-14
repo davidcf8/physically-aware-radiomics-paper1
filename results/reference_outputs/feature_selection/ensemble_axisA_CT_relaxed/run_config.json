@@ -1,0 +1,20 @@
+{
+  "data_dir": "<ORIGINAL_PROJECT_ROOT>/results/ready",
+  "out_dir": "<ORIGINAL_PROJECT_ROOT>/study_results/NUEVOS/ENSEMBLE/ensemble_axisA_CT_relaxed",
+  "analysis_label": "ensemble_axisA_CT_relaxed",
+  "include_combat": false,
+  "drop_shape": true,
+  "n_splits": 5,
+  "stable_frac": 0.4,
+  "n_select": 30,
+  "min_votes": 4,
+  "mwu_fdr_alpha": 0.05,
+  "spearman_abs_r_min": 0.1,
+  "spearman_p_max": 0.05,
+  "batch_mode": "from_column",
+  "use_lightgbm": true,
+  "random_state": 42,
+  "source_is_merged_homogeneous_only": true,
+  "combat_is_foldwise_train_only": true,
+  "precomputed_combat_csvs_used": false
+}

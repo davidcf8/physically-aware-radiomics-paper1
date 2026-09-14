@@ -1,0 +1,5 @@
+file,A,B,N,domain_label,n_rows,n_cols,n_batches
+<ORIGINAL_PROJECT_ROOT>/results/ready/merged_homogeneous/radiomics_fake_exp_merged.csv,FK,OFF,OFF,no_density,673,294,4
+<ORIGINAL_PROJECT_ROOT>/results/ready/merged_homogeneous/radiomics_no_resample_exp_merged.csv,NR,OFF,OFF,no_density,673,294,4
+<ORIGINAL_PROJECT_ROOT>/results/ready/merged_homogeneous/radiomics_resample_exp_merged.csv,RS,OFF,OFF,no_density,673,294,4
+<ORIGINAL_PROJECT_ROOT>/results/ready/merged_homogeneous/radiomics_VS_exp_merged.csv,VS,OFF,OFF,no_density,673,294,4

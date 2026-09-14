@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Physically Aware Radiomics Without Intensity Interpolation: Paper 1 Reproducibility Package"
+message: "Please cite Paper 1 and this repository when using these derived data or scripts."
+type: software
+authors:
+  - family-names: "TBD"
+    given-names: "TBD"
+year: 2026
+repository-code: "TBD"
+doi: "TBD"

@@ -1,0 +1,10 @@
+feature,family
+gradient_glcm_Imc1,glcm
+gradient_ngtdm_Strength,ngtdm
+original_glcm_Imc1,glcm
+original_gldm_GrayLevelNonUniformity,gldm
+original_glrlm_GrayLevelNonUniformity,glrlm
+original_glszm_GrayLevelNonUniformity,glszm
+original_glszm_SizeZoneNonUniformity,glszm
+gradient_gldm_DependenceNonUniformity,gldm
+gradient_glrlm_GrayLevelNonUniformity,glrlm

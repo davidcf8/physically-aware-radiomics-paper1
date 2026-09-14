@@ -1,0 +1,13 @@
+feature,family
+gradient_glrlm_GrayLevelNonUniformity,glrlm
+gradient_glszm_GrayLevelNonUniformity,glszm
+gradient_glszm_SizeZoneNonUniformity,glszm
+original_glszm_GrayLevelNonUniformity,glszm
+original_ngtdm_Strength,ngtdm
+gradient_firstorder_TotalEnergy,firstorder
+gradient_glcm_Imc1,glcm
+gradient_gldm_DependenceNonUniformity,gldm
+gradient_ngtdm_Busyness,ngtdm
+original_glrlm_RunLengthNonUniformity,glrlm
+original_glszm_SizeZoneNonUniformity,glszm
+original_ngtdm_Busyness,ngtdm

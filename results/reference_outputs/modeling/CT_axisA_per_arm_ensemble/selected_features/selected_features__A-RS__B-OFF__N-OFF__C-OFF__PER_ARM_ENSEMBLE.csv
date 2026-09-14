@@ -1,0 +1,9 @@
+feature,family
+original_glszm_SizeZoneNonUniformity,glszm
+original_ngtdm_Strength,ngtdm
+gradient_gldm_DependenceNonUniformity,gldm
+gradient_glrlm_GrayLevelNonUniformity,glrlm
+gradient_glszm_GrayLevelNonUniformity,glszm
+gradient_ngtdm_Busyness,ngtdm
+original_glcm_Imc1,glcm
+original_glszm_GrayLevelNonUniformity,glszm

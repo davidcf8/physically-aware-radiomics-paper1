@@ -1,0 +1,5 @@
+file,A,B,N,domain_label,n_rows,n_cols,n_batches
+<ORIGINAL_PROJECT_ROOT>/results/MRIready/merged_homogeneous/radiomics_MRI_NR_fake_merged.csv,FK,OFF,OFF,no_density,208,252,3
+<ORIGINAL_PROJECT_ROOT>/results/MRIready/merged_homogeneous/radiomics_MRI_NR_merged.csv,NR,OFF,OFF,no_density,208,252,3
+<ORIGINAL_PROJECT_ROOT>/results/MRIready/merged_homogeneous/radiomics_MRI_RS_merged.csv,RS,OFF,OFF,no_density,208,267,3
+<ORIGINAL_PROJECT_ROOT>/results/MRIready/merged_homogeneous/radiomics_MRI_VS_merged.csv,VS,OFF,OFF,no_density,208,252,3

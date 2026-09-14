@@ -1,0 +1,35 @@
+{
+  "axis": "A geometry only",
+  "arms": [
+    "NR",
+    "RS",
+    "VS",
+    "FK"
+  ],
+  "B": "OFF",
+  "N": "OFF",
+  "C": "OFF",
+  "internal_feature_csvs": {
+    "CT/internal/radiomics_CT_NR.csv": "data/derived_features/CT/internal/merged_homogeneous/radiomics_CT_NR.csv",
+    "CT/internal/radiomics_CT_RS.csv": "data/derived_features/CT/internal/merged_homogeneous/radiomics_CT_RS.csv",
+    "CT/internal/radiomics_CT_VS.csv": "data/derived_features/CT/internal/merged_homogeneous/radiomics_CT_VS.csv",
+    "CT/internal/radiomics_CT_FK.csv": "data/derived_features/CT/internal/merged_homogeneous/radiomics_CT_FK.csv",
+    "MRI/internal/radiomics_MRI_NR.csv": "data/derived_features/MRI/internal/merged_homogeneous/radiomics_MRI_NR.csv",
+    "MRI/internal/radiomics_MRI_RS.csv": "data/derived_features/MRI/internal/merged_homogeneous/radiomics_MRI_RS.csv",
+    "MRI/internal/radiomics_MRI_VS.csv": "data/derived_features/MRI/internal/merged_homogeneous/radiomics_MRI_VS.csv",
+    "MRI/internal/radiomics_MRI_FK.csv": "data/derived_features/MRI/internal/merged_homogeneous/radiomics_MRI_FK.csv"
+  },
+  "external_feature_csvs": {
+    "CT/external/radiomics_CT_NR.csv": "data/derived_features/CT/external/merged_homogeneous/radiomics_CT_NR.csv",
+    "CT/external/radiomics_CT_RS.csv": "data/derived_features/CT/external/merged_homogeneous/radiomics_CT_RS.csv",
+    "CT/external/radiomics_CT_VS.csv": "data/derived_features/CT/external/merged_homogeneous/radiomics_CT_VS.csv",
+    "CT/external/radiomics_CT_FK.csv": "data/derived_features/CT/external/merged_homogeneous/radiomics_CT_FK.csv",
+    "MRI/external/radiomics_MRI_NR.csv": "data/derived_features/MRI/external/merged_homogeneous/radiomics_MRI_NR.csv",
+    "MRI/external/radiomics_MRI_RS.csv": "data/derived_features/MRI/external/merged_homogeneous/radiomics_MRI_RS.csv",
+    "MRI/external/radiomics_MRI_VS.csv": "data/derived_features/MRI/external/merged_homogeneous/radiomics_MRI_VS.csv",
+    "MRI/external/radiomics_MRI_FK.csv": "data/derived_features/MRI/external/merged_homogeneous/radiomics_MRI_FK.csv"
+  },
+  "modeling_seed": 1337,
+  "bootstrap_seed": 1337,
+  "auxiliary_recurrence_random_state": 42
+}
