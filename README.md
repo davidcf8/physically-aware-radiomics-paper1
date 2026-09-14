@@ -6,9 +6,9 @@ This repository contains the downstream reproducibility package for Paper 1 of *
 
 This repository reproduces the Paper 1 downstream analyses from derived radiomic feature tables. It does **not** contain raw CT/MRI images, segmentation masks, or the modified PyRadiomics voxel-spacing-aware implementation. The voxel-spacing-aware PyRadiomics implementation belongs to the separate technical Paper 2 repository and should be cited/retrieved there.
 
-The code snapshot is intended to be frozen and tagged as `v1.0.0-paper1`.
+The reproducibility snapshot associated with Paper 1 is frozen as Git tag `v1.0.0-paper1`.
 
-The included analysis is strictly Axis A:
+The data and reference outputs distributed in this release correspond exclusively to Axis A:
 
 - `A = NR, RS, VS, FK`
 - `B = OFF`
@@ -17,7 +17,7 @@ The included analysis is strictly Axis A:
 - no ComBat analysis
 - no density-correction or density-harmonization analysis
 
-Some included scripts are the original general-purpose Paper 1 analysis framework and still contain code paths for additional axes. Those code paths are preserved to avoid altering the authoritative implementation. They are not part of the packaged Paper 1 reproduction commands, and no data or result outputs from those additional axes are distributed here.
+Some included scripts are the original general-purpose Paper 1 analysis framework and still contain code paths for additional experimental axes. Those general code paths are intentionally preserved to avoid altering the authoritative implementation. They are not used by the Paper 1 reproduction commands, and no data or reference outputs from those additional axes are distributed here.
 
 ## Cohorts
 
@@ -36,7 +36,7 @@ The CSVs use pseudonymized `patient_id` values. Direct image/mask paths, DICOM d
 ## Repository Structure
 
 ```text
-data/derived_features/        Final derived radiomic feature CSVs, arranged as ready-style merged_homogeneous folders.
+data/derived_features/        Final derived radiomic feature tables used in the Axis A analyses.
 scripts/statistics/           ICC, SRAD, Friedman/Wilcoxon, biological discrimination scripts.
 scripts/feature_selection/    Auxiliary recurrence/stability feature-selection script.
 scripts/modeling/             Internal LR/XGB/MLP modeling pipeline and example commands.
@@ -100,7 +100,7 @@ python scripts/modeling/modeling.py \
   --drop_shape --include_mlp --seed 1337
 ```
 
-External frozen validation requires trained model bundles. Model binaries are not included in this public package by default, so the packaged external validation reference outputs are provided under `results/reference_outputs/external_validation/`.
+Model binaries are not included in this release. Therefore, external validation cannot be regenerated from trained model objects using this repository alone. The final patient-level external predictions and machine-readable summary outputs used in the study are provided under `results/reference_outputs/external_validation/`.
 
 Bootstrap CIs from packaged prediction outputs:
 
@@ -128,6 +128,10 @@ Only derived radiomic feature tables and derived results are included. Raw medic
 
 ## Citation
 
-Please cite Paper 1 when using this repository. DOI/preprint placeholder: `TBD`.
+If you use the software, derived feature tables, or reference outputs distributed in this repository, please cite both the associated Paper 1 publication and the archived software release.
 
-Technical implementation repository for modified voxel-spacing-aware PyRadiomics / Paper 2: `TBD`.
+Paper 1 citation: to be added upon publication.
+
+Software release citation: to be added after archival DOI assignment.
+
+The voxel-spacing-aware PyRadiomics implementation is maintained separately as part of the companion technical study (Paper 2) and is not distributed in this repository.
